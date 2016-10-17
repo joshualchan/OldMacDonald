@@ -4,8 +4,7 @@ class NamedCow extends Cow
 	//constructor 3 variables
 	//get
     private String myName;    
-     private String myType;     
-     private String mySound;      
+   
 
 
     public NamedCow(String type, String sound, String name)     {         
@@ -16,12 +15,6 @@ class NamedCow extends Cow
 
 
 
-     //constructor
-     public NamedCow()     {         
-         myType = "cow";         
-         mySound = "moo";  
-         myName = "George";   
-     }      
 
      //get constructor variables
      public String getSound(){return mySound;}     
